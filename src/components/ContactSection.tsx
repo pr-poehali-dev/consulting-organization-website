@@ -21,7 +21,7 @@ const contactInfo = [
   {
     icon: 'Mail',
     title: 'Email',
-    content: 'info@prokonsalt.ru',
+    content: 'info@iteducation.ru',
   },
   {
     icon: 'Clock',
@@ -129,6 +129,18 @@ export default function ContactSection() {
                 </div>
               </CardContent>
             </Card>
+
+            <div className="w-full h-[300px] rounded-xl overflow-hidden shadow-md">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=37.617700%2C55.755800&z=16&l=map&pt=37.617700,55.755800,pm2rdm"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+                style={{ position: 'relative' }}
+                title="Карта офиса"
+              />
+            </div>
           </div>
 
           <Card className="border-none shadow-xl">

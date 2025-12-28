@@ -33,14 +33,16 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <Icon name="Briefcase" size={24} className="text-primary" />
-              </div>
-              <span className="text-2xl font-bold">ПроКонсалт</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="ITEducation" 
+                className="h-10 w-auto brightness-0 invert"
+              />
+              <span className="text-2xl font-bold">ITEducation</span>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
-              Профессиональные консалтинговые услуги для развития вашего бизнеса. 
+              IT-образование и консалтинг для развития вашего бизнеса. 
               Более 15 лет опыта и 200+ успешных проектов.
             </p>
             <div className="flex gap-3">
@@ -106,8 +108,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} className="flex-shrink-0" />
-                <a href="mailto:info@prokonsalt.ru" className="hover:text-white transition-colors">
-                  info@prokonsalt.ru
+                <a href="mailto:info@iteducation.ru" className="hover:text-white transition-colors">
+                  info@iteducation.ru
                 </a>
               </li>
             </ul>
@@ -117,7 +119,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-white/60">
-              © 2024 ПроКонсалт. Все права защищены.
+              © 2024 ITEducation. Все права защищены.
             </p>
             <div className="flex gap-6 text-sm">
               {footerLinks.legal.map((link) => (

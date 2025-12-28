@@ -27,11 +27,13 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Briefcase" size={24} className="text-white" />
-            </div>
-            <span className="text-2xl font-bold text-primary">ПроКонсалт</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://cdn.poehali.dev/files/logoza.ru.png" 
+              alt="ITEducation" 
+              className="h-12 w-auto"
+            />
+            <span className="text-2xl font-bold text-primary">ITEducation</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-1">
