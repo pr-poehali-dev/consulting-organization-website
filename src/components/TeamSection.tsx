@@ -68,8 +68,8 @@ export default function TeamSection() {
           {team.map((member, index) => (
             <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-6 text-center">
-                <Avatar className="w-24 h-24 mx-auto mb-4 bg-accent/20 text-primary text-2xl font-semibold">
-                  <AvatarFallback className="bg-accent/20 text-primary text-2xl">
+                <Avatar className="w-24 h-24 mx-auto mb-4">
+                  <AvatarFallback className="bg-accent/20 text-primary text-2xl font-semibold">
                     {member.initials}
                   </AvatarFallback>
                 </Avatar>
